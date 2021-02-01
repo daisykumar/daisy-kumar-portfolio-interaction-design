@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "locomotive-scroll": "^4.0.6"
+  },
+  "name": "daisy-kumar-portfolio-interaction-design",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisykumar/daisy-kumar-portfolio-interaction-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daisykumar/daisy-kumar-portfolio-interaction-design/issues"
+  },
+  "homepage": "https://github.com/daisykumar/daisy-kumar-portfolio-interaction-design#readme"
+}

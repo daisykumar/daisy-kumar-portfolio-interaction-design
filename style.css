@@ -385,6 +385,14 @@ nav{
     margin: 10px 20px;
 }
 @media screen and (min-width: 950px){
+    section{
+        height: 100vh;
+        padding: 10em;
+        background-color: blue;
+    }
+    .section2{
+        background-color: gray;
+    }
 
     .nav-center{
         display: flex;
@@ -591,11 +599,12 @@ nav{
         justify-content: center;
         text-align: center;
         grid-template-areas: "image text";
-        transition: 0.5s;
+        transition: 0.9s;
         border-radius: 5px;
     }
     .container:hover{
-        background-color: #f0d8d8;
+        background: radial-gradient(#f8f2f2, #e2dddd);
+        box-shadow: 0 4px 8px 2px #f26d6d4d;;
     }
     .container-image{
         grid-area: "image";

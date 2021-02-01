@@ -3,6 +3,8 @@
 // add - add class
 // remove - remove class
 // toggle - toggles class
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
@@ -25,6 +27,10 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true
+});
 
 navToggle.addEventListener("click", function (){
     //console.log(links.classList);
