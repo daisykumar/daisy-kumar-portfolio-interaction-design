@@ -317,8 +317,10 @@ button:focus{
 }
 
 .container:hover{
-    background-color: #f0d8d8;
+    background: radial-gradient(#f8f2f2, #e2dddd);
+    box-shadow: 0 4px 8px 2px #f26d6d4d;;
 }
+
 #background-container{
     background-color:  #EEECEC;
 }
