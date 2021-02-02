@@ -257,7 +257,7 @@ Navbar
 .selected, .works-title, .method{
     font-weight: bold;
     font-size: 32px; 
-    color: #a1a1a5;
+    color: #63636b;
     text-align: center;
     background-color: #fbfbfc;
     margin: 0px auto;
@@ -481,12 +481,12 @@ nav{
         align-items: center;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 90px;
         left: 0px;
     }
     #value{
         line-height: 36px;
-        margin: 20px 280px;
+        margin: 20px 180px;
         display: flex;
         flex-direction: column;
         font-size: 24px;
@@ -607,7 +607,7 @@ nav{
     }
     .container:hover{
         background: radial-gradient(#f8f2f2, #e2dddd);
-        box-shadow: 0 4px 8px 2px #f26d6d4d;;
+        box-shadow: 0 4px 8px 2px #9c91914d;;
     }
     .container-image{
         grid-area: "image";
