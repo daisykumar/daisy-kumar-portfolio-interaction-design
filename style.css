@@ -318,7 +318,7 @@ button:focus{
 
 .container:hover{
     background: radial-gradient(#f8f2f2, #e2dddd);
-    box-shadow: 0 4px 8px 2px #f26d6d4d;;
+    box-shadow: 0 4px 8px 2px #9c91914d;
 }
 
 #background-container{
@@ -386,6 +386,7 @@ nav{
     flex-direction: column;
     margin: 10px 20px;
 }
+
 @media screen and (min-width: 950px){
     section{
         height: 100vh;
@@ -611,9 +612,14 @@ nav{
     }
     .container-image{
         grid-area: "image";
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 0px;
     }
+
+    .project-image{
+        padding: 20px;
+        border-radius: 4px;
+    }
+
     .container-text{
         grid-area: "text";
         margin-top: 20px;
