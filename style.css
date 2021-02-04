@@ -608,7 +608,7 @@ nav{
         height: 170vh;
     }
     .container:hover{
-        background: radial-gradient(#f8f2f2, #e2dddd);
+        background: radial-gradient(#ffffff, #f8f4f4);
         box-shadow: 0 4px 8px 2px #9c91914d;;
     }
     .container-image{
@@ -616,7 +616,7 @@ nav{
     }
 
     .project-image{
-        padding: 20px;
+        padding: 0px;
         border-radius: 4px;
     }
 
