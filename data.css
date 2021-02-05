@@ -42,9 +42,19 @@ p, ol{
 .data-hero{
     max-width: 100vw;
     max-height: 100%;
+
 }
 .data-hero-image{
     margin: 0 auto;
+}
+.data-hero-image::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    margin-top: -120px;
+    height: 150px;
+    width: 100%;
+    content: '';
 }
 
 .prototype-link a{
