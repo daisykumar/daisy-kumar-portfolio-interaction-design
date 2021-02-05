@@ -224,7 +224,6 @@ Navbar
 .contact-form p{
     color: white;
     font-size: 22px;
-    font-weight: normal;
     margin: 0 auto;
     line-height: 36px;
 }
@@ -233,10 +232,6 @@ Navbar
     font-size: 48px;
 }
 
-.contact-para{
-    color: white;
-    font-size: 16px;
-}
 
 .email{
     font-size: 28px;
@@ -318,13 +313,15 @@ button:focus{
     font-size: 22px;
 }
 .container-image{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 .container-text{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
     text-align: left;
+    padding-bottom: 20px;
 }
 /*
 .container:hover{
@@ -391,12 +388,16 @@ nav{
 .container-image2{
     display: flex;
     flex-direction: column;
-    margin: 20px 40px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 .container-text2{
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 @media screen and (min-width: 950px){
@@ -650,8 +651,8 @@ nav{
         font-size: 16px;
     }
     .contact-form p{
-        margin: 0 220px;
-        font-weight: normal;
+        margin: 0 auto;
+        font-weight:300;
         line-height: 40px;
     }
 }
