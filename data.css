@@ -1,6 +1,7 @@
 
 body{
     background-color: #fbfbfc !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -8,6 +9,7 @@ p, ol{
     font-size: 16px;
     color: #353433;
     line-height: 28px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #myBtn {
