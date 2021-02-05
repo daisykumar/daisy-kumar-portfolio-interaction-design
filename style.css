@@ -619,6 +619,7 @@ nav{
     .container-image{
         margin:0px;
         padding: 20px;
+        position: relative;
     }
 
     .project-image{
@@ -633,6 +634,7 @@ nav{
         padding-bottom: 10px;
         align-items: center;
         justify-content: center;
+
     }
     #background-container{
         background-color:  #EEECEC;
