@@ -207,7 +207,10 @@ Navbar
     font-weight: normal;
     margin-top: 10px;
 }
-
+.project-link{
+    text-decoration: none;
+    color: #353433;
+}
 
 /*==============CONTACT =================================*/
 .contact-form{
@@ -256,7 +259,7 @@ Navbar
 /*==============END OF FOOTER =================================*/
 
 .selected, .works-title, .method{ 
-    font-size: 32px;
+    font-size: 28px;
     line-height: 48px;
     color: #63636b;
     text-align: center;
@@ -337,7 +340,7 @@ button:focus{
 nav{
     padding-top: 0.1rem;
     position: fixed;
-    z-index: 1;
+    z-index: 20;
     width: 100%;
     padding-left: 35rem;
 }
@@ -400,10 +403,8 @@ nav{
     padding-bottom: 0px;
 }
 
+
 @media screen and (min-width: 950px){
-
-    
-
     .nav-center{
         display: flex;
         align-items: center;
@@ -619,19 +620,21 @@ nav{
     }*/
     .container-image{
         margin:0px;
-        padding: 20px;
-        position: relative;
+        padding-top: 20px;
+        padding-bottom: 0px;
+
     }
 
     .project-image{
-        padding: 0px;
-        border-radius: 4px;
+        padding: 20px;
+        border-radius: 20px;
+        max-width: 100%;
     }
 
     .container-text{
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 30px;
+        margin-left: 35px;
         padding-bottom: 10px;
         align-items: center;
         justify-content: center;
@@ -654,6 +657,26 @@ nav{
         margin: 0 auto;
         font-weight:300;
         line-height: 40px;
+    }
+    #project-inside{
+        position: relative;
+    }
+    #project-text{
+        position: absolute;
+        z-index: 1;
+        top: 300px;
+        left: 750px;
+        bottom: 20px;
+        max-width: 100%;
+        padding: 60px;
+        color: #160633;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #project-text p{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 10px;
     }
 }
 
