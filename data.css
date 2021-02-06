@@ -93,6 +93,14 @@ img{
     flex-direction: column;
     padding: 20px;
 }
+.main-heading{
+    width: 90vw;
+    max-width: 60%;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #353433;
+}
 
 @media screen and (min-width:950px){
     iframe{
